@@ -35,7 +35,7 @@ console.log(Array.from("12345"))//[1,2,3,4,5]
 const score=200
 const score2=400
 const score3=700
-console.log(Array.of(score,score2,score3));//[200,400,700]
+console.log(Array.of(score,score2,score3));//[200,400,700]  ccv
 
 
 
