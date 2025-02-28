@@ -29,3 +29,27 @@ function loggingin(username = "Please enter a valid username"){
 }
 console.log(loggingin("yuvraj"));
 
+//to enter more than one number in 
+function calculatecartprice(val1,val2,...num1){//this will give answer in array i.e. [400,2000]
+    return num1
+}
+
+console.log(calculatecartprice(200,300,400,2000))
+
+
+const user={
+    Name:"Yuvraj",
+    designation:"General Manager"
+}
+function handleobject(anyobject){
+    console.log(`Username is ${anyobject.Name} and designation is ${anyobject.designation}`)
+}
+handleobject(user)
+
+const newarray=[200,300,400,2000]
+
+function returnsecondarray(getarray){
+    return getarray[1]
+}
+
+console.log(returnsecondarray(newarray))
